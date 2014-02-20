@@ -59,7 +59,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - 70
         }, 500);
         return false;
       }
@@ -106,6 +106,21 @@ $(function(){
     });
 });
 
+
+$(window).scroll(function(e){ 
+  $el = $('.nav'); 
+  if ($(this).scrollTop() > 450 && $el.css('position') != 'fixed'){ 
+    $('.nav').css({'position': 'fixed', 'top': '0px'}); 
+  } 
+});
+
+
+$(window).scroll(function(e){ 
+  $el = $('.nav'); 
+  if ($(this).scrollTop() < 450 && $el.css('position') != 'static'){ 
+    $('.nav').css({'position': 'static'}); 
+  } 
+});
 
 
 

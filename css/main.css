@@ -13,8 +13,8 @@ body{
 	font-family: font;
 	color: #333333;
 	background: url('../img/dust.png');
-	line-height:32px;
-	font-size:17px;
+	line-height:28px;
+	font-size:15px;
 }
 
 
@@ -27,7 +27,7 @@ font-size:16;
 h1{
 	font-family: font;
 	color:	#ffffff;
-	font-size: 100px;
+	font-size: 77px;
 
 }
 
@@ -45,6 +45,7 @@ h2{
 h3{
 	font-family: font;
 	color: #333333;
+	font-size: 35px;
 
 }
 
@@ -53,7 +54,7 @@ h4{
 
 	margin-top: 15px;
 	font-family: font;
-	color: #ffffff;
+	color: #333333;
 
 }
 
@@ -61,17 +62,18 @@ h5{
 
 	margin-top: 15px;
 	font-family: font;
-	color: #ffffff;
+	color: gray;
+	font-size: 24px;
 
 }
 
 h6{
 
-	margin-left:10px;
+	margin-top: 15px;
 	font-family: font;
-	font-size:20px;
-	color: teal;
-	float:left;
+	color: #333333;
+	font-size: 25px;
+	
 
 }
 
@@ -101,12 +103,62 @@ cursor: pointer;
 }
 
 
+.nav{
+padding:25px;
+background: #090a0b;
+z-index: 10;
+color:white;
+
+}
+
+.navigation{
+
+	margin:auto;
+
+}
+
+.nav li{
+
+margin-right: 5%;
+float:left;
+list-style:none;
+
+}
+
 .nav li a{
 
-	color: #ffffff;
+	color: gray;
 	font-size: 18px;
 
 }
+
+.nav li a:hover{
+	text-decoration: none;
+	color: white;
+	
+
+}
+
+.number{
+
+	margin-right:15px;
+
+}
+
+
+.practice{
+
+
+
+}
+
+
+#work{
+
+	margin-top: 55px;
+
+}
+
 
 .shower{
 
@@ -139,8 +191,8 @@ max-width: 250px;
 
 .header{
 	width:100%;
-	height:650px;
-	padding:200px 100px 100px;
+	height:450px;
+	padding:150px 100px 100px;
 
 	text-align: center; 
 	background: url('../img/ut.jpg');
