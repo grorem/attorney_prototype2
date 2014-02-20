@@ -1,21 +1,31 @@
 @font-face {
   font-family: "font";
-  src: url("AftaSansThin-Regular-webfont.eot");
+  src: url("RobotoSlab-Thin-webfont.eot");
   src: local("?"),
-    url("AftaSansThin-Regular-webfont.woff") format("woff"),
-    url("AftaSansThin-Regular-webfont.ttf") format("truetype"),
-    url("AftaSansThin-Regular-webfont.svg") format("svg");
+    url("RobotoSlab-Thin-webfont.woff") format("woff"),
+    url("RobotoSlab-Thin-webfont.ttf") format("truetype"),
+    url("RobotoSlab-Thin-webfont.svg") format("svg");
+  }
+
+  @font-face {
+  font-family: "fontReg";
+  src: url("RobotoSlab-Light-webfont.eot");
+  src: local("?"),
+    url("RobotoSlab-Light-webfont.woff") format("woff"),
+    url("RobotoSlab-Light-webfont.ttf") format("truetype"),
+    url("RobotoSlab-Light-webfont.svg") format("svg");
   }
 
 
 body{
 
-	font-family: font;
+	font-family: fontReg;
 	color: #333333;
 	background: url('../img/dust.png');
 	line-height:28px;
 	font-size:15px;
 }
+
 
 
 p{
@@ -43,9 +53,9 @@ h2{
 
 
 h3{
-	font-family: font;
+	font-family: fontReg;
 	color: #333333;
-	font-size: 35px;
+	font-size: 45px;
 
 }
 
@@ -62,7 +72,7 @@ h5{
 
 	margin-top: 15px;
 	font-family: font;
-	color: gray;
+	color: lightgray;
 	font-size: 24px;
 
 }
@@ -74,6 +84,12 @@ h6{
 	color: #333333;
 	font-size: 25px;
 	
+
+}
+
+#about h6{
+	font-family: fontReg;
+	color:white;
 
 }
 
@@ -105,7 +121,7 @@ cursor: pointer;
 
 .nav{
 padding:25px;
-background: #090a0b;
+background: #05080E;
 z-index: 10;
 color:white;
 
@@ -114,6 +130,20 @@ color:white;
 .navigation{
 
 	margin:auto;
+
+}
+
+.navigation a{
+	text-decoration: none;
+	color: gray;
+	font-size: 18px;
+
+}
+
+.navigation a:hover{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
 
 }
 
@@ -149,6 +179,17 @@ list-style:none;
 .practice{
 
 
+
+}
+
+.consultation{
+	margin-top: -100px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+
+	background:lightgray;
 
 }
 
@@ -192,10 +233,10 @@ max-width: 250px;
 .header{
 	width:100%;
 	height:450px;
-	padding:150px 100px 100px;
+	padding:100px 100px 100px;
 
 	text-align: center; 
-	background: url('../img/ut.jpg');
+	background: url('../img/ggbr.jpg');
 	background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -211,7 +252,7 @@ max-width: 250px;
 
 .main{
 	
-	max-width: 90%;
+	max-width: 98%;
 	min-width:40%;
 	margin: auto;
 	height:100%;
@@ -219,12 +260,51 @@ max-width: 250px;
 }
 
 
+.bottomMargin{
+
+	margin-bottom: 25px;
+
+}
 
 
 .story{
 
 	margin-bottom:25px;
 
+}
+
+.processBack{
+
+	background:lightgray;
+
+}
+
+.contactBack {
+
+	background:#05080E;
+
+}
+
+#contact{
+
+	color:lightgray;
+
+}
+
+#contact h3{
+
+	color:lightgray;
+
+}
+
+#process{
+
+
+}
+
+.process{
+	margin-top: 20px;
+	margin-left:-25px;
 }
 
 
@@ -247,52 +327,7 @@ max-width: 250px;
 
 }
 
-.gallery img{
-	margin-top:-15px;
-	max-width:115%;
 
-	
-}
-
-
-.extoggle{
-float:right;
-	
-
-}
-
-.extoggled{
-float:right;
-	
-
-}
-
-.extoggle2{
-float:right;
-	
-
-}
-
-.examples {
-
-
-
-}
-
-.gallery2 img{
-	margin-top:-15px;
-	max-width:115%;
-
-	
-}
-
-
-.gallery3 img{
-	margin-top:-15px;
-	max-width:115%;
-
-	
-}
 
 .section{
 
@@ -300,80 +335,11 @@ float:right;
 
 }
 
-.gallery{
-
-	float: left;
-	height:240px;
-
-	width:305px;
-
-	margin:1.5%;
-
-	
-
-	
-
-
-
-}
-
-
-
-.gallery2{
-
-	float: left;
-	height:220px;
-
-	width:305px;
-
-	margin:1.5%;
-
-	
-
-
-
-}
-
-
-
-.gallery3{
-
-	float: left;
-	height:180px;
-
-	width:305px;
-
-	margin:1.5%;
-
-	
-
-
-
-}
 
 
 
 
-.gallery:hover{
 
-	color:#428bca;
-	
-
-}
-
-
-.gallery2:hover{
-
-	color:#428bca;
-	
-
-}
-
-.gallery3:hover{
-
-	color:#428bca;
-	
-}
 
 
 .clientbar{
@@ -553,6 +519,7 @@ img{
 
 
 
+
 .contactInfo {
 
 	margin-left:300px;
@@ -578,7 +545,7 @@ img{
 	padding:10%;
 	 color: white;
 	line-height: 25px;
-	background: url('../img/zionChain2.jpg');
+	background: url('../img/ut.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
 
@@ -587,17 +554,29 @@ img{
 
 
 .contactForms{
-	padding:5px;
-	width:300px;
+	padding-left:5px;
+	width:250px;
 	margin:10px;
+
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+
 
 }
 
 
 .submit{
 	margin-left:10px;
-	width:300px;
+	width:250px;
 	
+}
+
+#Field4{
+
+	height:150px;
+
 }
 
 .selectors li{
