@@ -124,6 +124,10 @@ padding:25px;
 background: #05080E;
 z-index: 10;
 color:white;
+width:100%;
+margin:auto;
+border-bottom:solid 1px;
+border-color:#333333;
 
 }
 
@@ -201,11 +205,41 @@ list-style:none;
 }
 
 
-.shower{
+#blog{
+	width:100%;
+	background: url('../img/dust.png');
+
+}
+
+.blogEntry{
+
+	margin-bottom: 15px;
+
+}
+
+.readMore{
 
 
-	display:none;
-	
+}
+
+
+.readMore{
+
+
+}
+
+
+.readMore a{
+
+	font-size: 22px;
+
+}
+
+
+.readMore a:hover{
+
+		text-decoration: none;
+
 }
 
 
@@ -286,7 +320,7 @@ max-width: 250px;
 }
 
 #contact{
-
+	padding-bottom:150px;
 	color:lightgray;
 
 }
@@ -554,6 +588,24 @@ img{
 
 
 .contactForms{
+	padding:10px;
+	width:350px;
+	margin:10px;
+
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid;
+    background:none;
+    border-color:white;
+    color:white;
+
+
+
+}
+
+.consultForms{
 	padding-left:5px;
 	width:250px;
 	margin:10px;
@@ -562,14 +614,29 @@ img{
     -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;
     border-radius: 4px;
+    border: 1px solid;
+    
+
 
 
 }
 
 
+
+
+
+
+
+
 .submit{
 	margin-left:10px;
 	width:250px;
+	
+}
+
+.submit2{
+	margin-left:10px;
+	width:350px;
 	
 }
 
@@ -599,10 +666,31 @@ img{
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 1001px) {
+
+
+	.nav li a{
+
+		font-size: 13px;
+	}
 
 
 
+	.nav li a:hover{
+
+		font-size: 13px;
+	}
+
+	.navigation a{
+
+		font-size: 13px;
+	}
+
+
+	.navigation a:hover{
+
+		font-size: 13px;
+	}
 
 
 }
