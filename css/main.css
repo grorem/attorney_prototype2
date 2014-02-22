@@ -173,6 +173,78 @@ list-style:none;
 
 }
 
+.mobileNav li{
+	margin:12px;
+	float:left;
+	text-align: center;
+	list-style: none;
+
+
+}
+
+.mobileNav ul{
+	height:50px;
+	background:#05080E;
+	margin: auto;
+
+}
+
+
+.mobileNav a{
+	color:white;
+	font-size: 22px;
+
+}
+
+
+
+
+.mobileNavigation {
+
+	display:none;
+
+}
+
+
+.mobileNavigation ul{
+	width:100%;
+	margin:auto;
+	background:#05080E;
+	height:100vh;
+	position:fixed;
+	z-index: 20;
+	padding-top: 10px;
+
+}
+
+
+
+
+.mobileNavigation li{
+	list-style: none;
+	text-align: center;
+	margin:25px;
+
+}
+
+.mobileNavigation a{
+	color:white;
+	font-size: 30px;
+	font-family: fontReg;
+
+
+}
+
+.clear {clear: both;}
+
+
+
+.topper{
+	margin-right:25px;
+	float:right;
+
+}
+
 .number{
 
 	margin-right:15px;
@@ -557,7 +629,7 @@ margin-bottom:-50px;
 
   .header{
 	width:100%;
-	height:350px;
+	height:100%;
 	padding:20px 20px 100px;
 
 	text-align: center; 
@@ -577,6 +649,36 @@ margin-bottom:-50px;
     font-size: 18px;
     text-align:center;
   }
+
+
+
+
+  .mobileNavigation{
+
+height:100px;
+width:100px;
+background:red;
+
+
+}
+
+  .mobileNavigation a{
+
+
+
+	color:white;
+	font-size: 20px;
+	font-family: fontReg;
+
+
+}
+
+.mobileNav a{
+	
+	font-size: 19px;
+
+
+}
 
   .nav {
 
@@ -636,6 +738,8 @@ margin-bottom:-50px;
 
 
 
+
+
 @media all and (min-width:460px) and (max-width:759px) {
 
 
@@ -667,7 +771,7 @@ max-height:50px;
 
   .header{
 	width:100%;
-	height:350px;
+	height:100%;
 	padding:30px 30px 100px;
 
 	text-align: center; 
@@ -678,6 +782,8 @@ max-height:50px;
 }
 
 .nav {display: none;}
+
+
 
 
 .consultation{
@@ -759,14 +865,21 @@ img{
 		font-size: 13px;
 	}
 
+	.mobileNav{
+
+	display: none;
+}
 
 }
 
 
 
 
+@media all and (min-width:1002px) {
 
+.mobileNav{
 
+	display: none;
+}
 
-
-
+}

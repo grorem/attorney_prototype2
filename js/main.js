@@ -124,8 +124,38 @@ $(window).scroll(function(e){
 
 
 
+$(function(){
+    $(".menu").click(function(){
+      
+        
+        $('.mobileNavigation').fadeIn();
 
 
+    });
+});
+
+
+
+$(function(){
+    $(".topper").click(function(){
+      
+        
+        $('.mobileNavigation').fadeOut();
+
+
+    });
+});
+
+
+$(function(){
+    $(".mobileNavigation a").click(function(){
+      
+        
+        $('.mobileNavigation').fadeOut();
+
+
+    });
+});
 
 
 
